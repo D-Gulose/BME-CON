@@ -1,0 +1,25 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Oct  8 08:49:47 2021
+[*]
+[timestart] 0
+[size] 1848 1136
+[pos] -51 -51
+*-9.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench_divider.
+[sst_width] 233
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 331
+@28
+testbench_divider.clk
+testbench_divider.reset
+testbench_divider.start
+testbench_divider.busy
+@29
+testbench_divider.finish
+@22
+testbench_divider.divisor[7:0]
+testbench_divider.expected_quotient[8:0]
+[pattern_trace] 1
+[pattern_trace] 0

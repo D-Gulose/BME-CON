@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<truthTable>
+  <variables>
+    <variable name="state_{now,1}"/>
+    <variable name="state_{now,0}"/>
+    <variable name="start_i"/>
+    <variable name="divisor!=0"/>
+    <variable name="subtrahend&gt;=divisor"/>
+  </variables>
+  <results>
+    <result>
+      <name>state_{next,1}</name>
+      <values class="BoolTable">00001100XX10XX1000000000XXXXXXXX</values>
+    </result>
+    <result>
+      <name>state_{next,0}</name>
+      <values class="BoolTable">00000011XX01XX0100000000XXXXXXXX</values>
+    </result>
+  </results>
+</truthTable>

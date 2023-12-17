@@ -1,0 +1,19 @@
+# Read source files
+read -incdir ips
+read -sv2012 _synth/divider.v
+
+# Set top module
+hierarchy -check -top divider;
+
+# Synthesis
+synth;
+opt_clean;
+
+# Save netlist
+write_verilog -noattr _synth/divider_synthesized.v;
+
+# generate dot representation
+show -format dot -prefix _synth/divider_synth;
+
+# Print generic area information
+tee -o _synth/divider.stats stat;

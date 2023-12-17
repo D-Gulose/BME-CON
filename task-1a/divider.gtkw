@@ -1,0 +1,18 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Oct 29 09:42:20 2021
+[*]
+[dumpfile] "/home/con/Desktop/con2022_g362/task-1a/_sim/divider.vcd"
+[dumpfile_mtime] "Fri Oct 29 09:30:15 2021"
+[dumpfile_size] 9291
+[savefile] "/home/con/Desktop/con2022_g362/task-1a/divider.gtkw"
+[timestart] 0
+[size] 2488 1246
+[pos] -101 -101
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 233
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 369
+[pattern_trace] 1
+[pattern_trace] 0

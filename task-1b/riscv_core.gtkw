@@ -1,0 +1,176 @@
+[*]
+[*] GTKWave Analyzer v3.3.107 (w)1999-2020 BSI
+[*] Tue Sep 14 09:40:10 2021
+[*]
+[dumpfile] "/home/rschilling/gitprojects/teaching/con/practicals/2021/assignments/task-2/_sim/adding-two-constants.vcd"
+[dumpfile_mtime] "Tue Sep 14 09:18:33 2021"
+[dumpfile_size] 15813
+[savefile] "/home/rschilling/gitprojects/teaching/con/practicals/2021/assignments/task-2/riscv_core.gtkw"
+[timestart] 0
+[size] 1848 1136
+[pos] 2509 216
+*-5.000000 8 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbed.
+[treeopen] testbed.riscv_i.
+[treeopen] testbed.riscv_i.cpu_i.
+[sst_width] 240
+[signals_width] 338
+[sst_expanded] 1
+[sst_vpaned_height] 338
+@28
+testbed.riscv_i.cpu_i.reset_i
+@29
+testbed.riscv_i.cpu_i.clk_i
+@22
+testbed.riscv_i.mem_data_rdata[31:0]
+testbed.riscv_i.cpu_i.Instruction[31:0]
+testbed.riscv_i.cpu_i.PC_alu[31:0]
+testbed.riscv_i.cpu_i.PC_n[31:0]
+testbed.riscv_i.cpu_i.PC_p[31:0]
+@28
+testbed.riscv_i.cpu_i.PC_src
+testbed.riscv_i.cpu_i.alu_branch_o
+@22
+testbed.riscv_i.cpu_i.alu_data_2[31:0]
+testbed.riscv_i.cpu_i.alu_imm[31:0]
+@28
+testbed.riscv_i.cpu_i.alu_is_branch
+testbed.riscv_i.cpu_i.alu_mem_read
+@22
+testbed.riscv_i.cpu_i.alu_operator[3:0]
+testbed.riscv_i.cpu_i.alu_out[31:0]
+@28
+testbed.riscv_i.cpu_i.alu_reg_write
+testbed.riscv_i.cpu_i.alu_src
+testbed.riscv_i.cpu_i.alu_mem_write
+@22
+testbed.riscv_i.cpu_i.cpu_data_addr_o[31:0]
+testbed.riscv_i.cpu_i.cpu_data_rdata_i[31:0]
+testbed.riscv_i.cpu_i.cpu_data_wdata_o[31:0]
+@28
+testbed.riscv_i.cpu_i.cpu_data_we_o
+testbed.riscv_i.cpu_i.cpu_finish_o
+testbed.riscv_i.cpu_i.cpu_halt
+@22
+testbed.riscv_i.cpu_i.cpu_instr_addr_o[31:0]
+testbed.riscv_i.cpu_i.cpu_instr_rdata_i[31:0]
+@28
+testbed.riscv_i.cpu_i.funct3[2:0]
+@22
+testbed.riscv_i.cpu_i.funct7[6:0]
+testbed.riscv_i.cpu_i.funct12[11:0]
+@28
+testbed.riscv_i.cpu_i.illegal_insn
+testbed.riscv_i.cpu_i.mem_to_reg
+@22
+testbed.riscv_i.cpu_i.opcode[6:0]
+@c00022
+testbed.riscv_i.cpu_i.rs1[4:0]
+@28
+(0)testbed.riscv_i.cpu_i.rs1[4:0]
+(1)testbed.riscv_i.cpu_i.rs1[4:0]
+(2)testbed.riscv_i.cpu_i.rs1[4:0]
+(3)testbed.riscv_i.cpu_i.rs1[4:0]
+(4)testbed.riscv_i.cpu_i.rs1[4:0]
+@1401200
+-group_end
+@22
+testbed.riscv_i.cpu_i.rs2[4:0]
+testbed.riscv_i.cpu_i.rd[4:0]
+testbed.riscv_i.cpu_i.reg_data_1[31:0]
+@c00022
+testbed.riscv_i.cpu_i.reg_data_2[31:0]
+@28
+(0)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(1)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(2)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(3)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(4)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(5)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(6)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(7)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(8)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(9)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(10)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(11)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(12)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(13)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(14)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(15)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(16)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(17)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(18)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(19)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(20)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(21)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(22)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(23)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(24)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(25)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(26)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(27)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(28)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(29)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(30)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+(31)testbed.riscv_i.cpu_i.reg_data_2[31:0]
+@1401200
+-group_end
+@22
+testbed.riscv_i.cpu_i.reg_write_data[31:0]
+@28
+testbed.riscv_i.cpu_i.imm_sel[2:0]
+@c00022
+testbed.riscv_i.cpu_i.i_imm[31:0]
+@28
+(0)testbed.riscv_i.cpu_i.i_imm[31:0]
+(1)testbed.riscv_i.cpu_i.i_imm[31:0]
+(2)testbed.riscv_i.cpu_i.i_imm[31:0]
+(3)testbed.riscv_i.cpu_i.i_imm[31:0]
+(4)testbed.riscv_i.cpu_i.i_imm[31:0]
+(5)testbed.riscv_i.cpu_i.i_imm[31:0]
+(6)testbed.riscv_i.cpu_i.i_imm[31:0]
+(7)testbed.riscv_i.cpu_i.i_imm[31:0]
+(8)testbed.riscv_i.cpu_i.i_imm[31:0]
+(9)testbed.riscv_i.cpu_i.i_imm[31:0]
+(10)testbed.riscv_i.cpu_i.i_imm[31:0]
+(11)testbed.riscv_i.cpu_i.i_imm[31:0]
+(12)testbed.riscv_i.cpu_i.i_imm[31:0]
+(13)testbed.riscv_i.cpu_i.i_imm[31:0]
+(14)testbed.riscv_i.cpu_i.i_imm[31:0]
+(15)testbed.riscv_i.cpu_i.i_imm[31:0]
+(16)testbed.riscv_i.cpu_i.i_imm[31:0]
+(17)testbed.riscv_i.cpu_i.i_imm[31:0]
+(18)testbed.riscv_i.cpu_i.i_imm[31:0]
+(19)testbed.riscv_i.cpu_i.i_imm[31:0]
+(20)testbed.riscv_i.cpu_i.i_imm[31:0]
+(21)testbed.riscv_i.cpu_i.i_imm[31:0]
+(22)testbed.riscv_i.cpu_i.i_imm[31:0]
+(23)testbed.riscv_i.cpu_i.i_imm[31:0]
+(24)testbed.riscv_i.cpu_i.i_imm[31:0]
+(25)testbed.riscv_i.cpu_i.i_imm[31:0]
+(26)testbed.riscv_i.cpu_i.i_imm[31:0]
+(27)testbed.riscv_i.cpu_i.i_imm[31:0]
+(28)testbed.riscv_i.cpu_i.i_imm[31:0]
+(29)testbed.riscv_i.cpu_i.i_imm[31:0]
+(30)testbed.riscv_i.cpu_i.i_imm[31:0]
+(31)testbed.riscv_i.cpu_i.i_imm[31:0]
+@1401200
+-group_end
+@22
+testbed.riscv_i.cpu_i.u_imm[31:0]
+testbed.riscv_i.cpu_i.uj_imm[31:0]
+testbed.riscv_i.cpu_i.sb_imm[31:0]
+testbed.riscv_i.cpu_i.s_imm[31:0]
+testbed.riscv_i.mem_data_rdata[31:0]
+@28
+testbed.riscv_i.cpu_i.alu_i.alu_branch_o
+@22
+testbed.riscv_i.cpu_i.alu_i.alu_op_i[3:0]
+testbed.riscv_i.cpu_i.alu_i.alu_result_o[31:0]
+testbed.riscv_i.cpu_i.alu_i.alu_rs1_i[31:0]
+testbed.riscv_i.cpu_i.alu_i.alu_rs2_i[31:0]
+@28
+testbed.riscv_i.cpu_i.alu_i.is_equal
+testbed.riscv_i.cpu_i.alu_i.is_greater
+[pattern_trace] 1
+[pattern_trace] 0
