@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simulated Ethernet Network</title>
+        <link rel="stylesheet" href="framework.css">
+        <script defer src="framework.js"></script>
+    </head>
+    <body class="noscript">
+        <div id="framework-container">
+            <div id="framework-visualization">
+                <div id="switch-visual">
+                    <div id="switch-label">Ethernet Switch</div>
+                </div>
+            </div>
+            <div id="framework-controls">
+                <table id="controls-table"></table>
+                <div id="controls-auto">
+                    <b>Automated:</b>
+                    <button id="data-start">Auto-generate data</button>
+                    <button id="data-stop">Stop</button>
+                </div>
+                <table id="vlan-table"></table>
+            </div>
+        </div>
+        <div id="noscript-container">
+            JavaScript is required. Please whitelist this page in your NoScript plugin (or similar).
+        </div>
+        <div id="error-container">
+            <h2>Framework error</h2>
+            <p>An error has occurred in the visualization framework. Sorry :-(.</p>
+            <p>Try reloading, and see if that fixes it? A description of the error is below:</p>
+            <p id="error-message"></p>
+        </div>
+        <script type="text/javascript">
+            document.body.classList.remove('noscript');
+        </script>
+    </body>
+</html>

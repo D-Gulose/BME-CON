@@ -1,0 +1,26 @@
+html
+{
+    background: #ccf;
+    font-family: Georgia, serif;
+    margin: 1vmin;
+}
+
+li
+{
+    margin-bottom: 3px;
+}
+
+i, #ua
+{
+    display: inline-block;
+    background: #bbe;
+    border-radius: 15px;
+    padding: 2px 5px;
+    font-family: Monospace;
+    margin-bottom: 3px;
+}
+
+img
+{
+    border-radius: 2%;
+}

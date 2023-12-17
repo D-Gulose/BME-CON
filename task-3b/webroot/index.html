@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Successful Kitten Page</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="print_ua.js"></script>
+        <style>
+            body.direct-file > :not(#is-file) { display: none; }
+            body:not(.direct-file) #is-file { display: none; }
+            
+            body.noscript .script-only { display: none; }
+            body:not(.noscript) .noscript-only { display: none; }
+        </style>
+    </head>
+    <body class="noscript">
+        <script>
+            <!-- noscript checker -->
+            document.body.classList.remove('noscript');
+            
+            <!-- put this inline in case external files are broken -->
+            if (window.location.protocol === 'file:')
+                document.body.classList.add('direct-file');
+        </script>
+        <h1>You've made it work!</h1>
+        <p>If you're accessing this web page via <b>http://localhost:8000/</b>, your HTTP server seems to be working. Awesome!</p>
+        <ul>
+            <li>If <i>style.css</i> is being served correctly, the background of this page should be tinted light blue.</li>
+            <li class="script-only">If <i>print_ua.js</i> is being served correctly, your browser's user agent string will show here: <span id="ua"></span></li>
+            <li class="noscript-only">You seem to have JavaScript disabled, so we can't test <i>print_ua.js</i>. Try whitelisting this page in NoScript?</li>
+            <li>If <i>img/kitten.jpg</i> is being served correctly, there should be a kitten looking adorable below:<br><img src="img/kitten.jpg"></li>
+        </ul>
+        <p id="is-file">You're supposed to get this file from your own HTTP server, not just open it directly. &#x1F609;</p>
+    </body>
+</html>
